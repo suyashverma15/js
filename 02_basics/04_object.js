@@ -44,10 +44,26 @@ const user = [
 ]
 
 user[1].email;
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+
+const course = {
+    coursename: "javascript",
+    fee: "999",
+    courseInstructor: "Hitesh"
+}
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+//api
+{
+    "name": "suyash",
+    "coursename":"javascipt",
+    "fee":"free"
+}
 
 
 
