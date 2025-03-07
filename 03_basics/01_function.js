@@ -16,4 +16,19 @@ const res = addTwoNumbers(3,4)
 function loginUsermessage(username){
     return  `${username} just loggedin`
 }
-console.log(loginUsermessage("Suyash"));
+// console.log(loginUsermessage("Suyash"));
+
+// function calculateCartPrice(...num1){  // (... is rest operator)
+//     return num1;
+// }
+// console.log(calculateCartPrice(200,300,100,400));
+
+function calculateCartPrice(val1, val2, ...num1){
+  return num1;
+}
+console.log(calculateCartPrice(100,200,300,400,500));
+
+
+
+
+
